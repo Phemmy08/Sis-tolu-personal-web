@@ -171,6 +171,7 @@ blockquote {
   
   .help-card {
     background-color: #fff;
+    font-style: italic;
     padding: 30px 20px;
     border-radius: 16px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
