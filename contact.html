@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            background: #f9f9f9; 
+            margin: 0; 
+            padding: 0;
+        }
+        .container {
+            max-width: 500px;
+            margin: 40px auto;
+            background: #fff;
+            padding: 30px 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 24px;
+            color: #333;
+        }
+        label {
+            display: block;
+            margin-bottom: 6px;
+            color: #555;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 18px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1em;
+        }
+        button {
+            width: 100%;
+            padding: 12px;
+            background: #0078d7;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #005fa3;
+        }
+        .info {
+            margin-top: 24px;
+            font-size: 0.95em;
+            color: #666;
+            text-align: center;
+        }
+        a {
+            color: #0078d7;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: #005fa3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Get in Touch with me</h2>
+        <form class="contact-form" action="https://formspree.io/f/mgvkoeee" method="POST">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+        <div class="info">
+            <p class="email"> <a href="adejoorintolulope20@gmail.com">adejoorintolulope20@gmail.com</a></p>
+            <p><a href="tel:+2348135384398">+2348135384398</a></p>
+            <p class="address">
+            Contact Address:<br>
+            <strong>Akure South,<br>
+            Ondo, Nigeria.</strong>
+        </p>
+        </div>
+    </div>
+</body>
+</html>
