@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Agu+Display&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Emblema+One&family=IM+Fell+English+SC&display=swap');
+
+
 
 * {
     margin: 0;
@@ -48,7 +51,8 @@ body {
 
 .hero h1 {
     font-size: 3rem;
-    font-family: "Agu Display", serif; /* Custom font for the title */
+    /* font-family: "Agu Display", serif; */ /* Custom font for the title */
+      font-family: "Emblema One", system-ui;
     font-weight: 700;
     margin-bottom: 20px;
     line-height: 1.2;
@@ -247,6 +251,64 @@ blockquote {
     color: #ff7f50;
     text-decoration: none;
     font-weight: bold;
+}
+
+
+
+.flyer-section {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.flyer-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .flyer-section {
+    padding: 40px 15px;
+  }
+
+  .flyer-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .flyer-img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .flyer-caption {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-image,
+  .hero-text {
+    width: 100%;
+  }
+
+  .hero-image img {
+    max-width: 250px;
+    margin: 0 auto;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 0.95rem;
+  }
 }
 
 
