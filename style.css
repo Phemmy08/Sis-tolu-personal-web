@@ -52,7 +52,8 @@ body {
 .hero h1 {
     font-size: 3rem;
     /* font-family: "Agu Display", serif; */ /* Custom font for the title */
-      font-family: "Emblema One", system-ui;
+      /* font-family: " Emblema One", system-ui ; */
+      font-family: " sans-serif", serif;
     font-weight: 700;
     margin-bottom: 20px;
     line-height: 1.2;
